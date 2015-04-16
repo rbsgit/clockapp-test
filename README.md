@@ -1,2 +1,2 @@
 # clockapp-test
-Teste de client da nova plataforma - TimeCore
+Teste de client da nova plataforma - TimeCore - 1 alteração
