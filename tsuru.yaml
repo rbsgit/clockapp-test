@@ -1,0 +1,13 @@
+hooks:
+  restart:
+    before:
+      -  sudo chmod 777 /proc/self/fd/1
+      -  sudo chmod 777 /proc/self/fd/2
+    after:
+      -  sudo chmod 777 /proc/self/fd/1
+      -  sudo chmod 777 /proc/self/fd/2
+  build:
+      -  sudo chmod 777 /proc/self/fd/1
+      -  sudo chmod 777 /proc/self/fd/2
+
+
