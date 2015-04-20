@@ -1,0 +1,2 @@
+tomcat7: /var/lib/tsuru/java/start-tomcat
+acces_log: /home/application/current/log/log_watcher.sh
